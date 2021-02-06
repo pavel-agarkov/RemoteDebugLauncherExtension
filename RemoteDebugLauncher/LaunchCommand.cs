@@ -114,6 +114,7 @@ namespace RemoteDebugLauncher
 					Directory.CreateDirectory(Path.Combine(projRoot, "bin"));
 					var finalLaunchFilePath = Path.Combine(projRoot, "bin", launchFileName);
 					File.WriteAllText(finalLaunchFilePath, launchJson);
+					dte.ExecuteCommand("DebugAdapterHost.Logging", $"/On /OutputWindow");
 					dte.ExecuteCommand("DebugAdapterHost.Launch", $"/LaunchJson:\"{finalLaunchFilePath}\"");
 				}
 				else

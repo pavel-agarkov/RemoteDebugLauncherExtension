@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="RemoteDebugLauncher.27ffc3da-272f-40f7-b2a1-178b8d0f3a09" Version="1.0.0" Language="en-US" Publisher="Pavel Agarkov" />
+        <Identity Id="RemoteDebugLauncher.27ffc3da-272f-40f7-b2a1-178b8d0f3a09" Version="1.0.1" Language="en-US" Publisher="Pavel Agarkov" />
         <DisplayName>RemoteDebugLauncher</DisplayName>
         <Description xml:space="preserve">Remote debugger launcher</Description>
         <MoreInfo>https://github.com/pavel-agarkov/RemoteDebugLauncherExtension</MoreInfo>
