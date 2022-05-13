@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebugLauncher", "RemoteDebugLauncher\RemoteDebugLauncher.csproj", "{C4D800FA-6309-468C-9712-DF8FD21F4AFF}"
 EndProject
@@ -13,21 +13,44 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RemoteDebugLauncherShared", "RemoteDebugLauncherShared\RemoteDebugLauncherShared.shproj", "{EAF66530-04E6-4671-9B40-C46DA832F1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDebugLauncher2022", "RemoteDebugLauncher2022\RemoteDebugLauncher2022.csproj", "{9609B468-06F8-40F6-A93C-A07C6A82AFD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Debug|x86.ActiveCfg = Debug|x86
+		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Debug|x86.Build.0 = Debug|x86
 		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Release|x86.ActiveCfg = Release|x86
+		{C4D800FA-6309-468C-9712-DF8FD21F4AFF}.Release|x86.Build.0 = Release|x86
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Debug|x86.ActiveCfg = Debug|x86
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Debug|x86.Build.0 = Debug|x86
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Release|x86.ActiveCfg = Release|x86
+		{9609B468-06F8-40F6-A93C-A07C6A82AFD5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52ED1700-9BFE-4F05-A7C4-E77631E7D752}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RemoteDebugLauncherShared\RemoteDebugLauncherShared.projitems*{9609b468-06f8-40f6-a93c-a07c6a82afd5}*SharedItemsImports = 4
+		RemoteDebugLauncherShared\RemoteDebugLauncherShared.projitems*{c4d800fa-6309-468c-9712-df8fd21f4aff}*SharedItemsImports = 4
+		RemoteDebugLauncherShared\RemoteDebugLauncherShared.projitems*{eaf66530-04e6-4671-9b40-c46da832f1be}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
